@@ -1,0 +1,63 @@
+.search-container {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  border: 1px solid #098398;
+  border-radius: 999px;
+  overflow: hidden;
+  margin: 20px auto;
+}
+
+.search-input {
+  flex: 1;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.search-button {
+  color: #098398;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  transition: background-color 0.3s;
+}
+.flat {
+  width: 100%;
+  background-color: #f2eeee;
+}
+.flat h2 {
+  color: #000;
+  font-weight: 500;
+  font-size: 26px;
+  font-family: "Montserrat", "sans-serif";
+  padding-left: 20px;
+ 
+}
+
+h2 span {
+  border-radius: 50px;
+  font-size: 48px;
+  background-color: yellow;
+  padding: 10px 10px;
+  font-weight: 600;
+}
+.discount-conatiner {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.items-cards h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+.items-cards p{
+font-size: 18px;
+font-weight: 400;
+color: #000;
+}

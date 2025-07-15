@@ -1,0 +1,130 @@
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 100px;
+  text-align: center;
+  border-bottom: 1px solid;
+  padding-left: 31px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  background-color: white;
+}
+
+.footer-content h2 {
+  color: #000;
+  margin: 0 0 10px;
+  font-weight: 600;
+  font-size: 26px;
+  font-family: "Montserrat";
+}
+
+.footer-content p {
+  color: #000;
+  line-height: 0.9;
+  font-size: 14px;
+}
+
+.food-desc p {
+  color: #000;
+  font-size: 14px;
+  line-height: 14px;
+}
+.food-title h3 {
+  color: #000;
+  font-weight: 600;
+  font-size: 26px;
+  font-family: "Montserrat", "sans-serif";
+}
+/* .social-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+} */
+
+.icon {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+  gap: 5px;
+  font-size: 15px;
+  list-style: none;
+}
+
+/* Specific Colors */
+.fb-icon {
+  background-color: #3b5998;
+  border-radius: 50px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.twitter-icon {
+  background-color: #1da1f2;
+  border-radius: 50px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.insta-icon {
+  background-color: #3f729b;
+  border-radius: 50px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-menu1 {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #000;
+  align-items: center;
+  padding-top: 46px;
+  padding-bottom: 20px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+.footer-menu1 li {
+  padding: 0px 67px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  list-style: none;
+  font-size: 14px;
+}
+.para p {
+  font-size: 12px;
+  font-family: "Roboto";
+}
+@media screen and (max-width: 580px) and (min-width: 320px) {
+  .footer-menu1 {
+    flex-direction: column;
+  }
+  ul {
+    padding-left: 0px;
+  }
+
+  .footer-container {
+    display: block;
+  }
+}

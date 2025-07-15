@@ -1,0 +1,121 @@
+.seller-text h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.seller-text h2:hover {
+  text-decoration: underline;
+}
+.seller-pic {
+  border-radius: 20px;
+  width: 63%;
+}
+
+.seller-btn:hover {
+  background-color: #005f6b;
+}
+.seller:hover {
+  transform: scale(1.05);
+}
+.seller-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+
+.seller-card {
+  width: 360px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s;
+  display: flex;
+  gap: 12px;
+  padding: 10px;
+}
+
+.seller-img-wrap {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.seller-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.seller-badge {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  background-color: black;
+  color: white;
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.seller-body {
+  flex: 1;
+  padding: 6px 0;
+}
+
+.seller-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.seller-desc {
+  font-size: 13px;
+  color: #555;
+  margin: 0px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* show only 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.seller-actions {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.seller-price {
+  background-color: #007a8d;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.seller-btn {
+  background-color: #007a8d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.seller-btn:hover {
+  transform: scale(1.05);
+}
+.seller-card:hover {
+  transform: scale(1.05);
+}

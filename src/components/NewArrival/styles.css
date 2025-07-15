@@ -1,0 +1,19 @@
+.arrival-text h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.arrival-text h2:hover {
+  text-decoration: underline;
+}
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* or set a fixed height if needed */
+}
+
+.arrival-img {
+  border-radius: 20px;
+  width: 63%
+}

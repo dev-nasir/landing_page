@@ -1,0 +1,52 @@
+.menu {
+  background-color: #098398;
+  width: 100%;
+  padding: 10px 20px;
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+
+.menu ul {
+  display: flex;
+  gap: 5px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.menu ul li a {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+/* 🎯 HOVER effect for all links */
+.menu ul li a:hover {
+  background-color: #fff;
+  border: 1px solid white;
+  color:#098398 ;
+}
+
+/* ✅ Special style for NEW ARRIVAL */
+.menu ul li:first-child a {
+  background-color: white;
+  color: #098398;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+
+/* 🧠 Optional: active link style (if needed in the future) */
+/*
+.menu ul li a.active {
+  border-bottom: 2px solid white;
+}
+*/

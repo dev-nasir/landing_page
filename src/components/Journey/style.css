@@ -1,0 +1,70 @@
+.journey-bg {
+  background-image: url("../../assets/images/journey-image.jpg");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 322px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 6px;
+}
+
+
+.hero-section::before {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.6); /* light overlay */
+  z-index: 1;
+}
+.hero-section {
+  margin: 0 auto;
+}
+.hero-content {
+  z-index: 2;
+}
+
+.hero-content h2 {
+  font-size: 30px;
+  font-family: "chapaza";
+  text-align: left;
+  color: #000;
+  margin: 0;
+  font-weight: 600;
+}
+
+.hero-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+  width: 49%;
+  /* font-family: "Roboto,Arial,sans-serif"; */
+  color: #000;
+  margin: 10px 0px 0px;
+}
+@media (max-width: 1032px) {
+  .journey-bg {
+    height: 25vh;
+  }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+  }
+@media screen and (max-width: 580px) and (min-width: 320px) {
+  .hero-content p {
+    width: 100%;
+  }
+  .hero-content h1 {
+    font-size: 24px;
+  }
+  .hero-content p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 320px) {
+  .header-container {
+    justify-content: space-around;
+  }
+}
